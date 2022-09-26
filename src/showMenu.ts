@@ -7,6 +7,7 @@ export function showMenu() {
     let option: number
 
     do {
+        console.clear();
         console.log('1 - Adicionar item no estoque')
         console.log('2 - Remover item do estoque')
         console.log('3 - Atualizar estoque')

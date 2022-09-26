@@ -7,5 +7,7 @@ export function addItem(vet: string[]) {
     const item = prompt('>> ')
     vet.push(item)
     console.clear()
-    console.log('Item adicionado com sucesso!\n\n')
+    console.log('Item Adicionado com sucesso!')
+    prompt('\nPress ENTER ->')
+    console.clear()
 }
